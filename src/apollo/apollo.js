@@ -1,6 +1,6 @@
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
 export const client = new ApolloClient({
-  uri: 'https://sauchuk-scandiweb-test.herokuapp.com/',
+  uri: 'https://junior-react-endpoint-production.up.railway.app/',
   cache: new InMemoryCache()
 });
